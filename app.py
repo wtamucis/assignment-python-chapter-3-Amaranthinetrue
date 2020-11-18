@@ -64,7 +64,7 @@ for number in range(1, 4):
     print("Attempts", number+1, (number+1)*".")
 
 # how to count by twos
-for number in ranger(1, 10, 2):
+for number in range(1, 10, 2):
     print("Attempts", number+1, (number+1)*".")
 
 # how to count down from 10 to zero
@@ -81,9 +81,9 @@ for number in range(3):
     if successful:
         print("Successful")
         break
-else
-print("Attempted 3 times and failed")
-print("*"*30)
+else:
+    print("Attempted 3 times and failed")
+    print("*"*30)
 
 # if successful
 successful = True
@@ -92,15 +92,15 @@ for number in range(3):
     if successful:
         print("Successful")
         break
-else
-print("Attempted 3 times and failed")
-print("*"*30)
+else:
+    print("Attempted 3 times and failed")
+    print("*"*30)
 
 # Chapter 3.10 Nested Loops
 print("#Chapter 3.10 Nested Loops")
 for x in range(5):
     for y in range(3):
-        print(f"({X},{y})")
+        print(f"({x},{y})")
 
 # Chapter 3.11 Iterables
 print("#Chapter 3.11 Iterables")
